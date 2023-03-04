@@ -25,6 +25,34 @@ namespace BlogApp_DataAccess.Concrete.EntityFramework.Mappings
             builder.Property(i => i.Note).HasMaxLength(500);
 
             builder.HasOne<Article>(i => i.Article).WithMany(i => i.Comments).HasForeignKey(i => i.ArticleId);
+
+            builder.HasData(new Comment()
+            {
+                Id = 1,
+                ArticleId = 1,
+                Text = "Çok güzel",
+                IsActive = true,
+                IsDeleted = false,
+                CreatedByName = "InitialCreate",
+                CreatedDate = DateTime.Now,
+                ModifiedByName = "InitialCreate",
+                ModifiedDate = DateTime.Now,
+                Note = "C# Blog Kategorisi"
+            },
+            new Comment()
+            {
+                Id = 2,
+                ArticleId = 2,
+                Text = "Çok güzel içerikler olmuş",
+                IsActive = true,
+                IsDeleted = false,
+                CreatedByName = "InitialCreate",
+                CreatedDate = DateTime.Now,
+                ModifiedByName = "InitialCreate",
+                ModifiedDate = DateTime.Now,
+                Note = "Java Blog Kategorisi"
+            });
+
             builder.ToTable("Comments");
         }
     }

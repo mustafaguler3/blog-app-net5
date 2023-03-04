@@ -1,0 +1,15 @@
+C:\Users\Mustafa GULER\source\repos\Blog_App\BlogApp_Entities\bin\Debug\net5.0\BlogApp_Entities.deps.json
+C:\Users\Mustafa GULER\source\repos\Blog_App\BlogApp_Entities\bin\Debug\net5.0\BlogApp_Entities.dll
+C:\Users\Mustafa GULER\source\repos\Blog_App\BlogApp_Entities\bin\Debug\net5.0\BlogApp_Entities.pdb
+C:\Users\Mustafa GULER\source\repos\Blog_App\BlogApp_Entities\bin\Debug\net5.0\BlogApp_Shared.dll
+C:\Users\Mustafa GULER\source\repos\Blog_App\BlogApp_Entities\bin\Debug\net5.0\BlogApp_Shared.pdb
+C:\Users\Mustafa GULER\source\repos\Blog_App\BlogApp_Entities\obj\Debug\net5.0\BlogApp_Entities.csproj.AssemblyReference.cache
+C:\Users\Mustafa GULER\source\repos\Blog_App\BlogApp_Entities\obj\Debug\net5.0\BlogApp_Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mustafa GULER\source\repos\Blog_App\BlogApp_Entities\obj\Debug\net5.0\BlogApp_Entities.AssemblyInfoInputs.cache
+C:\Users\Mustafa GULER\source\repos\Blog_App\BlogApp_Entities\obj\Debug\net5.0\BlogApp_Entities.AssemblyInfo.cs
+C:\Users\Mustafa GULER\source\repos\Blog_App\BlogApp_Entities\obj\Debug\net5.0\BlogApp_Entities.csproj.CoreCompileInputs.cache
+C:\Users\Mustafa GULER\source\repos\Blog_App\BlogApp_Entities\obj\Debug\net5.0\BlogApp_Entities.csproj.CopyComplete
+C:\Users\Mustafa GULER\source\repos\Blog_App\BlogApp_Entities\obj\Debug\net5.0\BlogApp_Entities.dll
+C:\Users\Mustafa GULER\source\repos\Blog_App\BlogApp_Entities\obj\Debug\net5.0\refint\BlogApp_Entities.dll
+C:\Users\Mustafa GULER\source\repos\Blog_App\BlogApp_Entities\obj\Debug\net5.0\BlogApp_Entities.pdb
+C:\Users\Mustafa GULER\source\repos\Blog_App\BlogApp_Entities\obj\Debug\net5.0\ref\BlogApp_Entities.dll

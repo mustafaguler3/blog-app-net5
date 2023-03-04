@@ -1,0 +1,12 @@
+C:\Users\Mustafa GULER\source\repos\Blog_App\BlogApp_Business\bin\Debug\net5.0\BlogApp_Business.deps.json
+C:\Users\Mustafa GULER\source\repos\Blog_App\BlogApp_Business\bin\Debug\net5.0\BlogApp_Business.dll
+C:\Users\Mustafa GULER\source\repos\Blog_App\BlogApp_Business\bin\Debug\net5.0\BlogApp_Business.pdb
+C:\Users\Mustafa GULER\source\repos\Blog_App\BlogApp_Business\obj\Debug\net5.0\BlogApp_Business.csproj.AssemblyReference.cache
+C:\Users\Mustafa GULER\source\repos\Blog_App\BlogApp_Business\obj\Debug\net5.0\BlogApp_Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mustafa GULER\source\repos\Blog_App\BlogApp_Business\obj\Debug\net5.0\BlogApp_Business.AssemblyInfoInputs.cache
+C:\Users\Mustafa GULER\source\repos\Blog_App\BlogApp_Business\obj\Debug\net5.0\BlogApp_Business.AssemblyInfo.cs
+C:\Users\Mustafa GULER\source\repos\Blog_App\BlogApp_Business\obj\Debug\net5.0\BlogApp_Business.csproj.CoreCompileInputs.cache
+C:\Users\Mustafa GULER\source\repos\Blog_App\BlogApp_Business\obj\Debug\net5.0\BlogApp_Business.dll
+C:\Users\Mustafa GULER\source\repos\Blog_App\BlogApp_Business\obj\Debug\net5.0\refint\BlogApp_Business.dll
+C:\Users\Mustafa GULER\source\repos\Blog_App\BlogApp_Business\obj\Debug\net5.0\BlogApp_Business.pdb
+C:\Users\Mustafa GULER\source\repos\Blog_App\BlogApp_Business\obj\Debug\net5.0\ref\BlogApp_Business.dll

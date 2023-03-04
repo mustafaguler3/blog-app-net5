@@ -24,6 +24,48 @@ namespace BlogApp_DataAccess.Concrete.EntityFramework.Mappings
             builder.Property(i => i.IsActive).IsRequired(true);
             builder.Property(i => i.IsDeleted).IsRequired(true);
             builder.Property(i => i.Note).HasMaxLength(500);
+
+            builder.HasData(new Category()
+            {
+                Id = 1,
+                Name = "C#",
+                Description = "C# programlama dili",
+                IsActive = true,
+                IsDeleted = false,
+                CreatedByName = "InitialCreate",
+                CreatedDate = DateTime.Now,
+                ModifiedByName = "InitialCreate",
+                ModifiedDate = DateTime.Now,
+                Note = "C# Blog Kategorisi"
+            },
+            new Category()
+            {
+                Id = 2,
+                Name = "Java",
+                Description = "Java programlama dili",
+                IsActive = true,
+                IsDeleted = false,
+                CreatedByName = "InitialCreate",
+                CreatedDate = DateTime.Now,
+                ModifiedByName = "InitialCreate",
+                ModifiedDate = DateTime.Now,
+                Note = "Java Blog Kategorisi"
+            },
+            new Category()
+            {
+                Id = 3,
+                Name = "Angular",
+                Description = "Angular javascript frameworkü",
+                IsActive = true,
+                IsDeleted = false,
+                CreatedByName = "InitialCreate",
+                CreatedDate = DateTime.Now,
+                ModifiedByName = "InitialCreate",
+                ModifiedDate = DateTime.Now,
+                Note = "Angular Blog Kategorisi"
+            }
+            );
+
             builder.ToTable("Categories");
 
         }

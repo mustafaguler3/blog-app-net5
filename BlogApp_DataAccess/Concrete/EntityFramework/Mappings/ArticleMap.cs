@@ -30,6 +30,54 @@ namespace BlogApp_DataAccess.Concrete.EntityFramework.Mappings
             builder.Property(i => i.Note).HasMaxLength(500);
             builder.HasOne<Category>(i => i.Category).WithMany(i => i.Articles).HasForeignKey(i=>i.CategoryId);
             builder.HasOne<User>(i => i.User).WithMany(i => i.Articles).HasForeignKey(i => i.UserId);
+
+            builder.HasData(new Article()
+            {
+                Id = 1,
+                CategoryId = 1,
+                Title = "C# 9.0",
+                Content = "sdsafdjasokfnsalkdfnmsaldkfsaadfsafasf",
+                Thumbnail = "Default.png",
+                SeoDescription = "C# 9.0 ve Net 5 Yenilikler",
+                SeoTags = "C#, C# 9, .Net Framework",
+                SeoAuthor = "Mustafa Güler",
+                Date = DateTime.Now,
+                IsActive = true,
+                IsDeleted = false,
+                CreatedByName = "InitialCreate",
+                CreatedDate = DateTime.Now,
+                ModifiedByName = "InitialCreate",
+                ModifiedDate = DateTime.Now,
+                Note = "C# 9.0",
+                UserId = 1,
+                ViewsCount = 100,
+                CommentCount = 1
+
+            },
+            new Article()
+            {
+                Id = 2,
+                CategoryId = 2,
+                Title = "Java ",
+                Content = "sdsafdjasokfnsalkdfnmsaldkfsaadfsafasf",
+                Thumbnail = "Default.png",
+                SeoDescription = "Java ve Yenilikler",
+                SeoTags = "Java, Spring Framework",
+                SeoAuthor = "Mustafa Güler",
+                Date = DateTime.Now,
+                IsActive = true,
+                IsDeleted = false,
+                CreatedByName = "InitialCreate",
+                CreatedDate = DateTime.Now,
+                ModifiedByName = "InitialCreate",
+                ModifiedDate = DateTime.Now,
+                Note = "Java",
+                UserId = 1,
+                ViewsCount = 250,
+                CommentCount = 1
+
+            });
+
             builder.ToTable("Articles");
         }
     }

@@ -24,6 +24,24 @@ namespace BlogApp_DataAccess.Concrete.EntityFramework.Mappings
             builder.Property(i => i.IsDeleted).IsRequired(true);
             builder.Property(i => i.Note).HasMaxLength(500);
 
+            builder.HasData(
+                new Role() { 
+                    Id = 1,
+                    Name = "Admin",
+                    Description = "Admin Rolü ",
+                    IsActive=true,
+                    IsDeleted=false,
+                    CreatedByName = "InitialCreate",
+                    CreatedDate = DateTime.Now,
+                    ModifiedByName = "InitialCreate",
+                    ModifiedDate = DateTime.Now,
+                    Note = "Admin Rolüdür"
+                }
+                );
+            
+
+            
+
             builder.ToTable("Roles");
         }
     }

@@ -1,0 +1,12 @@
+C:\Users\Mustafa GULER\source\repos\Blog_App\BlogApp_Shared\bin\Debug\net5.0\BlogApp_Shared.deps.json
+C:\Users\Mustafa GULER\source\repos\Blog_App\BlogApp_Shared\bin\Debug\net5.0\BlogApp_Shared.dll
+C:\Users\Mustafa GULER\source\repos\Blog_App\BlogApp_Shared\bin\Debug\net5.0\BlogApp_Shared.pdb
+C:\Users\Mustafa GULER\source\repos\Blog_App\BlogApp_Shared\obj\Debug\net5.0\BlogApp_Shared.csproj.AssemblyReference.cache
+C:\Users\Mustafa GULER\source\repos\Blog_App\BlogApp_Shared\obj\Debug\net5.0\BlogApp_Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mustafa GULER\source\repos\Blog_App\BlogApp_Shared\obj\Debug\net5.0\BlogApp_Shared.AssemblyInfoInputs.cache
+C:\Users\Mustafa GULER\source\repos\Blog_App\BlogApp_Shared\obj\Debug\net5.0\BlogApp_Shared.AssemblyInfo.cs
+C:\Users\Mustafa GULER\source\repos\Blog_App\BlogApp_Shared\obj\Debug\net5.0\BlogApp_Shared.csproj.CoreCompileInputs.cache
+C:\Users\Mustafa GULER\source\repos\Blog_App\BlogApp_Shared\obj\Debug\net5.0\BlogApp_Shared.dll
+C:\Users\Mustafa GULER\source\repos\Blog_App\BlogApp_Shared\obj\Debug\net5.0\refint\BlogApp_Shared.dll
+C:\Users\Mustafa GULER\source\repos\Blog_App\BlogApp_Shared\obj\Debug\net5.0\BlogApp_Shared.pdb
+C:\Users\Mustafa GULER\source\repos\Blog_App\BlogApp_Shared\obj\Debug\net5.0\ref\BlogApp_Shared.dll

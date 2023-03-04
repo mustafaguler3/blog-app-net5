@@ -31,6 +31,26 @@ namespace BlogApp_DataAccess.Concrete.EntityFramework.Mappings
             builder.Property(i => i.IsActive).IsRequired(true);
             builder.Property(i => i.IsDeleted).IsRequired(true);
             builder.Property(i => i.Note).HasMaxLength(500);
+
+            builder.HasData(new User()
+            {
+                Id = 1,
+                RoleId = 1,
+                FirstName = "Mustafa",
+                LastName = "Güler",
+                Username = "Mustafa",
+                Email = "m@hotmail.com",
+                IsDeleted = false,
+                IsActive = true,
+                CreatedByName = "InitialCreate",
+                CreatedDate = DateTime.Now,
+                ModifiedByName = "InitialCreate",
+                ModifiedDate = DateTime.Now,
+                Description = "İlk Admin kullanıcı",
+                Note = "Admin kullanıcısı",
+                PasswordHash = Encoding.ASCII.GetBytes("e5de81655caaea1616f2d5afe6cb3d23"),
+                Picture = "https://i.pinimg.com/736x/a8/2d/aa/a82daa4b726d8f02d8ce28f3e3b3677a.jpg"
+            });
             builder.ToTable("Users");
         }
     }
