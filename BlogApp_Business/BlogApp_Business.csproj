@@ -5,10 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Concrete\" />
-  </ItemGroup>
-
-  <ItemGroup>
+    <ProjectReference Include="..\BlogApp_DataAccess\BlogApp_DataAccess.csproj" />
     <ProjectReference Include="..\BlogApp_Entities\BlogApp_Entities.csproj" />
   </ItemGroup>
 
