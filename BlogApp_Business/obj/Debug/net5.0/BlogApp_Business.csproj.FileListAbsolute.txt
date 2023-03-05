@@ -10,3 +10,10 @@ C:\Users\Mustafa GULER\source\repos\Blog_App\BlogApp_Business\obj\Debug\net5.0\B
 C:\Users\Mustafa GULER\source\repos\Blog_App\BlogApp_Business\obj\Debug\net5.0\refint\BlogApp_Business.dll
 C:\Users\Mustafa GULER\source\repos\Blog_App\BlogApp_Business\obj\Debug\net5.0\BlogApp_Business.pdb
 C:\Users\Mustafa GULER\source\repos\Blog_App\BlogApp_Business\obj\Debug\net5.0\ref\BlogApp_Business.dll
+C:\Users\Mustafa GULER\source\repos\Blog_App\BlogApp_Business\bin\Debug\net5.0\BlogApp_DataAccess.dll
+C:\Users\Mustafa GULER\source\repos\Blog_App\BlogApp_Business\bin\Debug\net5.0\BlogApp_Entities.dll
+C:\Users\Mustafa GULER\source\repos\Blog_App\BlogApp_Business\bin\Debug\net5.0\BlogApp_Shared.dll
+C:\Users\Mustafa GULER\source\repos\Blog_App\BlogApp_Business\bin\Debug\net5.0\BlogApp_DataAccess.pdb
+C:\Users\Mustafa GULER\source\repos\Blog_App\BlogApp_Business\bin\Debug\net5.0\BlogApp_Entities.pdb
+C:\Users\Mustafa GULER\source\repos\Blog_App\BlogApp_Business\bin\Debug\net5.0\BlogApp_Shared.pdb
+C:\Users\Mustafa GULER\source\repos\Blog_App\BlogApp_Business\obj\Debug\net5.0\BlogApp_Business.csproj.CopyComplete

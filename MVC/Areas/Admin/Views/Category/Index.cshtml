@@ -1,0 +1,74 @@
+﻿@using BlogApp_Entities.Dtos;
+@using BlogApp_Shared.Utilities.Results.ComplexTypes;
+@model CategoryListDto
+
+@if(Model.ResultStatus == ResultStatus.Success)
+{
+    <h1>Kategoriler</h1>
+    <div class="table-responsive mx-4">
+        <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Adı</th>
+                    <th>Açıklama</th>
+                    <th>Aktiv mi?</th>
+                    <th>Silinmiş mi?</th>
+                    <th>Not</th>
+                    <th>Oluşturulma Tarihi</th>
+                    <th>Oluşturan Kullanıcı Adı</th>
+                    <th>Son Düzenleme Tarihi</th>
+                    <th>Son Düzenleyen Kullanıcı Adı</th>
+                </tr>
+            </thead>
+            <tfoot>
+                <th>Id</th>
+                <th>Adı</th>
+                <th>Açıklama</th>
+                <th>Aktiv mi?</th>
+                <th>Silinmiş mi?</th>
+                <th>Not</th>
+                <th>Oluşturulma Tarihi</th>
+                <th>Oluşturan Kullanıcı Adı</th>
+                <th>Son Düzenleme Tarihi</th>
+                <th>Son Düzenleyen Kullanıcı Adı</th>
+            </tfoot>
+            <tbody>
+                @foreach(var category in Model.Categories){
+                    <tr>
+                        <td>@category.Id</td>
+                        <td>@category.Name</td>
+                        <td>@category.Description</td>
+                        <td>@category.IsActive</td>
+                        <td>@category.IsDeleted</td>
+                        <td>@category.Note</td>
+                        <td>@category.CreatedDate.ToShortTimeString()</td>
+                        <td>@category.CreatedByName</td>
+                        <td>@category.ModifiedDate</td>
+                        <td>@category.ModifiedByName</td>
+                    </tr>
+                }
+            </tbody>
+                                    </table>
+                                </div>
+                           
+                    
+}
+@if(Model.ResultStatus == ResultStatus.Error)
+{
+    <div class="alert alert-danger">
+        @Model.Message <br>
+        Dashboard sayfasına geri dönmek için lütfen <a class="alert-link" asp-asp-area="Admin" asp-asp-controller="Home" asp-action="Index">tıklayınız.</a>
+    </div>    
+}
+
+@section Scripts {
+    <script>
+
+        $(document).ready(function () {
+            $("#")
+        });
+
+
+    </script>
+}
