@@ -451,3 +451,5 @@ C:\Users\Mustafa GULER\source\repos\Blog_App\MVC\obj\Debug\net5.0\Razor\Areas\Ad
 C:\Users\Mustafa GULER\source\repos\Blog_App\MVC\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\_LayoutCssPartial.cshtml.g.cs
 C:\Users\Mustafa GULER\source\repos\Blog_App\MVC\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\_LayoutJsPartial.cshtml.g.cs
 C:\Users\Mustafa GULER\source\repos\Blog_App\MVC\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\_LayoutSideBarPartial.cshtml.g.cs
+C:\Users\Mustafa GULER\source\repos\Blog_App\MVC\obj\Debug\net5.0\Razor\Areas\Admin\Views\Category\_CategoryAddPartial.cshtml.g.cs
+C:\Users\Mustafa GULER\source\repos\Blog_App\MVC\bin\Debug\net5.0\libman.json

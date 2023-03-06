@@ -1,5 +1,30 @@
 ﻿
-
 <h1>Burası admin area</h1>
 <a asp-area="Admin" asp-action="Index" asp-controller="Home">Blog area kısmına geçmek için tıklayın</a>
 
+<table id="data">
+
+</table>
+
+@section scripts {
+    <script>
+        $(document).ready(function(){
+        $('#data').DataTable({
+                dom: "<'row'<'col-sm-3'l><'col-sm-6 text-center'B><'col-sm-3'f>>" +
+                    "<'row'<'col-sm-12'tr>>" +
+                    "<'row'<'col-sm-5'i><'col-sm-7'p>>",
+            buttons: [
+                {
+                    text: 'Ekle',
+                    className: 'btn btn-success'
+                    action: function( e, dt, node, config) {
+                        alert( 'clicked')
+                    }
+                }
+            ]
+        });
+        })
+        
+
+    </script>
+}

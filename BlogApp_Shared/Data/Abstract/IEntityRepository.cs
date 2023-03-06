@@ -13,8 +13,8 @@ namespace BlogApp_Shared.Data.Abstract
         Task<T> GetAsync(Expression<Func<T,bool>> predicate,params Expression<Func<T, object>>[] includeProperties);//var user=repository.GetAsync(k=>k.id==15) bana getir
         Task<IList<T>> GetAllAsync(Expression<Func<T, bool>> predicate = null
             , params Expression<Func<T, object>>[] includeProperties);
-        Task AddAsync(T entity);
-        Task UpdateAsync(T entity);
+        Task<T> AddAsync(T entity);
+        Task<T> UpdateAsync(T entity);
         Task Delete(T entity);
         Task<bool> Any(Expression<Func<T, bool>> predicate);
         Task<int> Count(Expression<Func<T, bool>> predicate);

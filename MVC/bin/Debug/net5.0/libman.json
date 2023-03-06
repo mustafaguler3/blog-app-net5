@@ -1,0 +1,14 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "library": "jquery@3.6.3",
+      "destination": "wwwroot/lib/jquery/"
+    },
+    {
+      "library": "datatables-buttons@2.3.5",
+      "destination": "wwwroot/datatables-buttons/"
+    }
+  ]
+}

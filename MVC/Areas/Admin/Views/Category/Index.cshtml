@@ -4,53 +4,52 @@
 
 @if(Model.ResultStatus == ResultStatus.Success)
 {
-    <h1>Kategoriler</h1>
-    <div class="table-responsive mx-4">
-        <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-            <thead>
-                <tr>
-                    <th>Id</th>
-                    <th>Adı</th>
-                    <th>Açıklama</th>
-                    <th>Aktiv mi?</th>
-                    <th>Silinmiş mi?</th>
-                    <th>Not</th>
-                    <th>Oluşturulma Tarihi</th>
-                    <th>Oluşturan Kullanıcı Adı</th>
-                    <th>Son Düzenleme Tarihi</th>
-                    <th>Son Düzenleyen Kullanıcı Adı</th>
-                </tr>
-            </thead>
-            <tfoot>
-                <th>Id</th>
-                <th>Adı</th>
-                <th>Açıklama</th>
-                <th>Aktiv mi?</th>
-                <th>Silinmiş mi?</th>
-                <th>Not</th>
-                <th>Oluşturulma Tarihi</th>
-                <th>Oluşturan Kullanıcı Adı</th>
-                <th>Son Düzenleme Tarihi</th>
-                <th>Son Düzenleyen Kullanıcı Adı</th>
-            </tfoot>
-            <tbody>
-                @foreach(var category in Model.Categories){
-                    <tr>
-                        <td>@category.Id</td>
-                        <td>@category.Name</td>
-                        <td>@category.Description</td>
-                        <td>@category.IsActive</td>
-                        <td>@category.IsDeleted</td>
-                        <td>@category.Note</td>
-                        <td>@category.CreatedDate.ToShortTimeString()</td>
-                        <td>@category.CreatedByName</td>
-                        <td>@category.ModifiedDate</td>
-                        <td>@category.ModifiedByName</td>
-                    </tr>
-                }
-            </tbody>
-                                    </table>
+    <div class="card mb-4">
+                            <div class="card-header">
+                                <i class="fas fa-table mr-1"></i>
+            <h1>Kategoriler</h1>
+                            </div>
+                            <div class="card-body">
+            <div id="modalPlaceHolder" aria-hidden="true"></div>
+            <div class="table-responsive mx-4 my-4 px-4 py-4">
+                <table class="table table-bordered" id="data" width="100%" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>Id</th>
+                            <th>Adı</th>
+                            <th>Açıklama</th>
+                            <th>Aktiv mi?</th>
+                            <th>Silinmiş mi?</th>
+                            <th>Not</th>
+                            <th>Oluşturulma Tarihi</th>
+                            <th>Oluşturan Kullanıcı Adı</th>
+                            <th>Son Düzenleme Tarihi</th>
+                            <th>Son Düzenleyen Kullanıcı Adı</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var category in Model.Categories)
+                        {
+                            <tr>
+                                <td>@category.Id</td>
+                                <td>@category.Name</td>
+                                <td>@category.Description</td>
+                                <td>@category.IsActive</td>
+                                <td>@category.IsDeleted</td>
+                                <td>@category.Note</td>
+                                <td>@category.CreatedDate.ToShortTimeString()</td>
+                                <td>@category.CreatedByName</td>
+                                <td>@category.ModifiedDate</td>
+                                <td>@category.ModifiedByName</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
                                 </div>
+                                </div>
+    
+    
                            
                     
 }
@@ -62,13 +61,17 @@
     </div>    
 }
 
-@section Scripts {
+@section scripts {
     <script>
-
         $(document).ready(function () {
-            $("#")
-        });
+            var table = $('#data').DataTable({
+                lengthChange: false,
+                buttons: ['copy', 'excel', 'pdf', 'colvis']
+            });
 
+            table.buttons().container()
+                .appendTo('#example_wrapper .col-md-6:eq(0)');
+        });
 
     </script>
 }
